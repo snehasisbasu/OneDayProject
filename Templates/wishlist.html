@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <title>Products</title>
     <meta http-equiv="Content-Type" content="text/html; charset-utf-8" />
-    <link rel="stylesheet" type="text/css" href="wishlist.css" />
-    <script type="text/javascript" src="wishlist.js" async></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'Css/wishlist.css' %}" />
+    <script type="text/javascript" src="{% static 'JavaScript/wishlist.js' %}" async></script>
 </head>
 <body id="layout">
     <header>
@@ -16,78 +17,76 @@
         <div id="content">
             <div class="product">
                 <div id = "product0">
-                    <img src="index/pic1.jpeg" height="150" width="200" />
-                    <h3>Apples</h3>
+                    <img src="{% static 'Images/pic1.jpeg' %}" height="150" width="200" />
                     <p>Type: Dress</p>
-                    <p>Price: Rs 800 / kg</p>
+                    <p>Price: Rs 800</p>
                 </div>
                 <input type="button" value="Add to List" id="0" class="but" />
             </div>
             <div class="product">
                 <div id = "product1">
-                    <img src="index/pic2.jpeg" height="150" width="200" />
-                    <h3>Dress</h3>
-                    <p>Type: Fruit</p>
-                    <p>Price: Rs 1000 / kg</p>
+                    <img src="{% static 'Images/pic2.jpeg' %}" height="150" width="200" />
+                    <p>Type: Dress</p>
+                    <p>Price: Rs 1000</p>
                 </div>
                 <input type="button" value="Add to List" id="1" class="but" />
             </div>
             <div class="product">
                 <div id = "product2">
-                    <img src="index/images3.jpeg" height="150" width="200" />
+                    <img src="{% static 'Images/images3.jpeg' %}" height="150" width="200" />
                     <p>Type: Dress</p>
-                    <p>Price: Rs 800 / kg</p>
+                    <p>Price: Rs 800 </p>
                 </div>
                 <input type="button" value="Add to List" id="2" class="but" />
             </div>
             <div class="product">
                 <div id = "product3">
-                    <img src="index/pic4.jpeg" height="150" width="200" />
+                    <img src="{% static 'Images/pic4.jpeg' %}" height="150" width="200" />
 
                     <p>Type: Dress</p>
-                    <p>Price: Rs 980 / doz</p>
+                    <p>Price: Rs 980</p>
                 </div>
                 <input type="button" value="Add to List" id="3" class="but" />
             </div>
             <div class="product">
                 <div id = "product4">
-                    <img src="index/pic5.jpeg" height="150" width="200" />
+                    <img src="{% static 'Images/pic5.jpeg' %}" height="150" width="200" />
 
-                    <p>Type: Fruit</p>
-                    <p>Price: Rs 1400 / kg</p>
+                    <p>Type: Dress</p>
+                    <p>Price: Rs 1400 </p>
                 </div>
                 <input type="button" value="Add to List" id="4" class="but" />
             </div>           
             <div class="product">
                 <div id = "product5">
-                    <img src="index/pic4.jpeg" height="150" width="200" />
+                    <img src="{% static 'Images/pic4.jpeg' %}" height="150" width="200" />
                 
                     <p>Type: Dress</p>
-                    <p>Price: Rs 2378 / kg</p>
+                    <p>Price: Rs 2378</p>
                 </div>
                 <input type="button" value="Add to List" id="5" class="but" />
             </div>                        
             <div class="product">
                 <div id = "product6">
-                    <img src="index/images1.jpeg" height="150" width="200" />
+                    <img src="{% static 'Images/images1.jpeg' %}" height="150" width="200" />
                     <p>Type: Dress</p>
-                    <p>Price: Rs 3000 / kg</p>
+                    <p>Price: Rs 3000</p>
                 </div>
                 <input type="button" value="Add to List" id="6" class="but" />
             </div>                        
             <div class="product">
                 <div id = "product7">
-                    <img src="index/pic6.jpeg" height="150" width="200" />
+                    <img src="{% static 'Images/pic6.jpeg' %}" height="150" width="200" />
                     <p>Type: Dress</p>
-                    <p>Price: Rs 2040 / kg</p>
+                    <p>Price: Rs 2040 </p>
                 </div>
                 <input type="button" value="Add to List" id="7" class="but" />
             </div>                        
             <div class="product">
                 <div id = "product8">
-                    <img src="index/pic7.jpg" height="150" width="200" />
+                    <img src="{% static 'Images/pic7.jpg' %}" height="150" width="200" />
                     <p>Type: Wrist Watch</p>
-                    <p>Price: Rs 3000 / kg</p>
+                    <p>Price: Rs 3000</p>
                 </div>
                 <input type="button" value="Add to List" id="8" class="but" />
             </div>                                                            
